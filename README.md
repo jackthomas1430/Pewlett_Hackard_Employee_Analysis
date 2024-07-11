@@ -13,7 +13,7 @@ For the module 9 challenge, we complete a research project about company employe
     8. List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 
 ##Files
- - "sql-challenge"(): The main repo for this challenge. 
+ - "sql-challenge"(https://github.com/jackthomas1430/sql-challenge.git): The main repo for this challenge. 
     -"data" folder:contains the 6 csv files from the employee database
     -"Data_Analysis_Results" folder: contains images and csv files for the eight data analysis questions
     -"table_schemata.sql": the table schema for each of the six CSV files
