@@ -15,13 +15,13 @@ For the module 9 challenge, we complete a research project about company employe
 ##Files
  - "sql-challenge"(https://github.com/jackthomas1430/sql-challenge.git): The main repo for this challenge. 
     -"data" folder:contains the 6 csv files from the employee database
-    -"Data_Analysis_Results" folder: contains images and csv files for the eight data analysis questions
+    -"Data_Analysis_Results" folder: contains images and csv files with the results for the eight data analysis questions
     -"table_schemata.sql": the table schema for each of the six CSV files
-    -"sql_challenge_queries.sql": file of data analysis queries 
+    -"sql_challenge_queries.sql": file with data analysis queries 
     -"SQL_CHALLENGE_ERD.PNG": image file of ERD
 
 ##Data Sources
-The data sources are the 6 csv files remaing from Pewlett Hackard's employee databse. 
+The data sources used for this project are the 6 csv files remaining from Pewlett Hackard's employee databse. 
     1. "department.csv": columns are "dept_no" and "dept_name"
     2. "titles.csv": columns are "title_id" and "title"
     3. "employees.csv": columns are "emp_no", "emp_title_id", "birth_date","first_name", "last_name","sex","hire_date"
@@ -47,7 +47,7 @@ The data sources are the 6 csv files remaing from Pewlett Hackard's employee dat
 
 ##Acknowledgements
     
-    Xpert Learning Assistant was used to answer detailed questions, and assist in debugging.The starter code provided was the base of the report and was modified using course curriculum and activities to fit the requirements of the assignment. The TA and instructor for the course also assisted in adjusting the code during office hours.For more information about the Xpert Learning Assistant, visit [EdX Xpert Learning Assistant](https://www.edx.org/). 
+    Xpert Learning Assistant was used to answer detailed questions, and assist in debugging.For more information about the Xpert Learning Assistant, visit [EdX Xpert Learning Assistant](https://www.edx.org/). 
 
 ## References
 "What is a Composite Primary Key?" Database Guide. Retrieved from database.guide
