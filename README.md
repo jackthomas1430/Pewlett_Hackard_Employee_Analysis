@@ -12,15 +12,15 @@ For the module 9 challenge, we complete a research project about company employe
     7. List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
     8. List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 
-##Files
+## Files
  - "sql-challenge"(https://github.com/jackthomas1430/sql-challenge.git): The main repo for this challenge. 
-    -"data" folder:contains the 6 csv files from the employee database
-    -"Data_Analysis_Results" folder: contains images and csv files with the results for the eight data analysis questions
-    -"table_schemata.sql": the table schema for each of the six CSV files
-    -"sql_challenge_queries.sql": file with data analysis queries 
-    -"SQL_CHALLENGE_ERD.PNG": image file of ERD
+    - "data" folder:contains the 6 csv files from the employee database
+    - "Data_Analysis_Results" folder: contains images and csv files with the results for the eight data analysis questions
+    - "table_schemata.sql": the table schema for each of the six CSV files
+    - "sql_challenge_queries.sql": file with data analysis queries 
+    - "SQL_CHALLENGE_ERD.PNG": image file of ERD
 
-##Data Sources
+## Data Sources
 The data sources used for this project are the 6 csv files remaining from Pewlett Hackard's employee databse. 
     1. "department.csv": columns are "dept_no" and "dept_name"
     2. "titles.csv": columns are "title_id" and "title"
@@ -29,13 +29,13 @@ The data sources used for this project are the 6 csv files remaining from Pewlet
     5. "dept_emp.csv": columbs are "emp_no","dept_no"
     6. "dept_manager.csv": columans are "dept_no","emp_no"
       
-##Instructions
+## Instructions
     
     1. Clone the repository to your local device using git clone https://github.com/jackthomas1430/sql-challenge.git
     2. Open "table_schemata.sql" and run to create tables
     3. Open "sql_challenge_queries.sql", run each query individually to view results for each question 
     
-##Results 
+## Results 
 ![Employee Salaries](sql-challenge/Data_Analysis_Results/employee_salaries.png)
 ![Employees 1986](sql-challenge/Data_Analysis_Results/employees_1986.png)
 ![Department Managers](sql-challenge/Data_Analysis_Results/department_managers.png)
@@ -45,7 +45,7 @@ The data sources used for this project are the 6 csv files remaining from Pewlet
 ![Sales and Development](sql-challenge/Data_Analysis_Results/sales_development.png)
 ![Last Name Frequency Count](sql-challenge/Data_Analysis_Results/last_name_frequency_count.png)
 
-##Acknowledgements
+## Acknowledgements
     
     Xpert Learning Assistant was used to answer detailed questions, and assist in debugging.For more information about the Xpert Learning Assistant, visit [EdX Xpert Learning Assistant](https://www.edx.org/). 
 
