@@ -1,62 +1,56 @@
-# SQL Challenge: Module 9 
+# Pewlett Hackard Employee Analysis
 
-## Project Overiview 
-For the module 9 challenge, we complete a research project about company employees during the 1980s and 1990s for the company Pewlett Hackard. Using SQL, we perform data modeling, data engineering, and data analysis to answer the following questions: 
- 
-    1. List the employee number, last name, first name, sex, and salary of each employee.
-    2. List the first name, last name, and hire date for the employees who were hired in 1986.
-    3. List the manager of each department along with their department number, department name, employee number, last name, and first name.
-    4. List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
-    5. List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
-    6. List each employee in the Sales department, including their employee number, last name, and first name.
-    7. List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
-    8. List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
+This project was developed as part of a Data Analytics challenge, focusing on designing and managing a relational database to analyze employee data. The project showcases SQL expertise in schema design, querying, and data analysis.
 
-## Files
- - "sql-challenge"(https://github.com/jackthomas1430/sql-challenge.git): The main repo for this challenge. 
-    - "data" folder:contains the 6 csv files from the employee database
-    - "Data_Analysis_Results" folder: contains images and csv files with the results for the eight data analysis questions
-    - "table_schemata.sql": the table schema for each of the six CSV files
-    - "sql_challenge_queries.sql": file with data analysis queries 
-    - "SQL_CHALLENGE_ERD.PNG": image file of ERD
+## **Objectives**
+- Identify employees eligible for retirement and create a mentorship program pipeline.
+- Analyze employee data for workforce planning and management insights.
+- Provide actionable insights to address organizational challenges such as knowledge transfer and resource allocation.
 
-## Data Sources
-The data sources used for this project are the 6 csv files remaining from Pewlett Hackard's employee databse. 
-    1. "department.csv": columns are "dept_no" and "dept_name"
-    2. "titles.csv": columns are "title_id" and "title"
-    3. "employees.csv": columns are "emp_no", "emp_title_id", "birth_date","first_name", "last_name","sex","hire_date"
-    4. "salaries.csv": columns are "emp_no","salary"
-    5. "dept_emp.csv": columbs are "emp_no","dept_no"
-    6. "dept_manager.csv": columans are "dept_no","emp_no"
-      
-## Instructions
-    
-    1. Clone the repository to your local device using git clone https://github.com/jackthomas1430/sql-challenge.git
-    2. Open "table_schemata.sql" and run to create tables
-    3. Open "sql_challenge_queries.sql", run each query individually to view results for each question 
-    
-## Results 
-![Employee Salaries](sql-challenge/Data_Analysis_Results/employee_salaries.png)
-![Employees 1986](sql-challenge/Data_Analysis_Results/employees_1986.png)
-![Department Managers](sql-challenge/Data_Analysis_Results/department_managers.png)
-![Department Employees](sql-challenge/Data_Analysis_Results/employee_department.png)
-![Hercules B](sql-challenge/Data_Analysis_Results/hercules_b.png)
-![Sales Department](sql-challenge/Data_Analysis_Results/sales_department.png)
-![Sales and Development](sql-challenge/Data_Analysis_Results/sales_development.png)
-![Last Name Frequency Count](sql-challenge/Data_Analysis_Results/last_name_frequency_count.png)
+## **Technologies Used**
+- PostgreSQL
+- SQL
+- Python (Pandas, Matplotlib)
 
-## Acknowledgements
-    
-    Xpert Learning Assistant was used to answer detailed questions, and assist in debugging.For more information about the Xpert Learning Assistant, visit [EdX Xpert Learning Assistant](https://www.edx.org/). 
+## **Key Components**
+1. **Database Schema Design**:
+   - Created a normalized schema to organize data on employees, departments, salaries, and employment history.
+   - Designed an Entity Relationship Diagram (ERD) to illustrate database relationships.
+2. **Complex Queries**:
+   - Developed SQL queries to:
+     - Identify employees eligible for retirement based on age and tenure.
+     - Generate a mentorship eligibility list to support knowledge transfer.
+     - Provide summary statistics on workforce demographics.
+3. **Analysis and Insights**:
+   - Quantified the number of employees retiring across different departments.
+   - Identified gaps in workforce planning, enabling actionable strategies for HR.
 
-## References
-"What is a Composite Primary Key?" Database Guide. Retrieved from database.guide
-"Junction Tables," SQL Scholar. Retrieved from sqlscholar.info
-"PostgreSQL Documentation: SQL SELECT," PostgreSQL. Retrieved from postgresql.org
-"PostgreSQL Documentation: Data Types," PostgreSQL. Retrieved from postgresql.org
+## **Repository Contents**
+- **SQL Scripts**: Includes table creation, data insertion, and analysis queries.
+- **ERD**: A visual representation of the database schema.
+- **Analysis Outputs**: Results of key queries, providing actionable insights.
 
+## **Instructions**
+1. Clone the repository: `git clone https://github.com/jackthomas1430/Pewlett_Hackard_Employee_Analysis`
+2. Set up the database using the provided SQL scripts.
+3. Run the included queries to generate insights.
+4. Use Python scripts (if applicable) to visualize the data.
 
-Data for this dataset was generated by edX Boot Camps LLC
+## **Insights**
+### Key Findings:
+- **Retirement Trends**: Identified a significant number of employees eligible for retirement in the next five years.
+- **Mentorship Program**: Created a pipeline of employees who are both eligible for retirement and mentorship.
+- **Workforce Demographics**: Provided a breakdown of the workforce by department, age group, and tenure.
 
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
-Data generated by MockarooLinks to an external site., LLC (2022). Realistic Data Generator.
+### Visualization:
+- [Add visuals if available, e.g., bar charts or pie charts showing retirement trends or mentorship pipelines.]
+
+## **Business Relevance**
+This project provides actionable insights for workforce planning and knowledge transfer, enabling HR departments to:
+- Plan for succession and mitigate risks associated with retiring employees.
+- Strategize on mentoring programs to retain organizational knowledge.
+- Address resource gaps proactively to ensure business continuity.
+
+---
+
+For more details or questions, please contact Jack Thomas at jack.o.thomas1430@gmail.com or visit [GitHub Repository](https://github.com/jackthomas1430/Pewlett_Hackard_Employee_Analysis).
